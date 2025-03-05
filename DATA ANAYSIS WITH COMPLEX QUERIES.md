@@ -19,7 +19,7 @@
 |---------------|-----------------|
 | 1             | IT              |   
 | 2             | HR              |   
-| 3             | Sales     
+| 3             | Sales     |
 
 
 ## 1. **Employee Salary Trends** (using Window Function )
