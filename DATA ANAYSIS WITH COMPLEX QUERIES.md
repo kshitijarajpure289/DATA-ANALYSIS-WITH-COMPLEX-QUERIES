@@ -49,7 +49,6 @@ FROM employees;
 | 2           | Rutuja Rajpure | IT         | 110000.00 | 2           |   
 | 5           | Prasad Kate    | Sales      | 100000.00 | 1           |   
 | 6           | Khushi Oswal   | Sales      | 95000.00  | 2           |   
-|             |                |            |           |
 ## 2. Average Salary by Department (using Common Table Expressions)
 
  Next, we will calculate the average salary for each department and compare individual employee salaries to the department's average salary.
@@ -88,7 +87,7 @@ JOIN department_avg_salary d ON e.department = d.department;
 | 3           | Archana Gupta  | HR         | 95000.00  | 93500.000000  | Above Average     |  
 | 4           | Shashank Jhage | HR         | 92000.00  | 93500.000000  | Below Average     |   
 | 5           | Prasad Kate    | Sales      | 100000.00 | 97500.000000  | Above Average     |   
-| 6           | Khushi Oswal   | Sales      | 95000.00  | 97500.000000  | Below Average 
+| 6           | Khushi Oswal   | Sales      | 95000.00  | 97500.000000  | Below Average |
 
 ## 3.Employees Earning Above Department Average (using a Subquery)
  Finds employees earning above their department’s average.
