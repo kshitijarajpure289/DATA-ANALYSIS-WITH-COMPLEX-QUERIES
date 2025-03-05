@@ -15,10 +15,10 @@
 
 ## 2. Departments Table
 
-| department_id | department_name |   |   |   |   |   |
-|---------------|-----------------|---|---|---|---|---|
-| 1             | IT              |   |   |   |   |   |
-| 2             | HR              |   |   |   |   |   |
+| department_id | department_name |   
+|---------------|-----------------|
+| 1             | IT              |   
+| 2             | HR              |   
 | 3             | Sales     
 
 
@@ -41,14 +41,14 @@ FROM employees;
 #### RANK() OVER partitions the employees by department and orders them by salary in descending order.This query helps identify the highest paid employee within each department.
 
 ### Output
-| employee_id | name           | department | salary    | salary_rank |   |   |
-|-------------|----------------|------------|-----------|-------------|---|---|
-| 3           | Archana Gupta  | HR         | 95000.00  | 1           |   |   |
-| 4           | Shashank Jhage | HR         | 92000.00  | 2           |   |   |
-| 1           | Aditya Bhosle  | IT         | 120000.00 | 1           |   |   |
-| 2           | Rutuja Rajpure | IT         | 110000.00 | 2           |   |   |
-| 5           | Prasad Kate    | Sales      | 100000.00 | 1           |   |   |
-| 6           | Khushi Oswal   | Sales      | 95000.00  | 2           |   |   |
+| employee_id | name           | department | salary    | salary_rank |   
+|-------------|----------------|------------|-----------|-------------|---
+| 3           | Archana Gupta  | HR         | 95000.00  | 1           |  
+| 4           | Shashank Jhage | HR         | 92000.00  | 2           |   
+| 1           | Aditya Bhosle  | IT         | 120000.00 | 1           |   
+| 2           | Rutuja Rajpure | IT         | 110000.00 | 2           |   
+| 5           | Prasad Kate    | Sales      | 100000.00 | 1           |   
+| 6           | Khushi Oswal   | Sales      | 95000.00  | 2           |   
 |             |                |            |           |
 ## 2. Average Salary by Department (using Common Table Expressions)
 
@@ -81,13 +81,13 @@ JOIN department_avg_salary d ON e.department = d.department;
  CTE (department_avg_salary) calculates the average salary for each department.The main query compares each employee's salary to the department's average salary and classifies them as "Above Average," "Below Average," or "Average."
 
 ### Output
-| employee_id | name           | department | salary    | avg_salary    | salary_comparison |   |
-|-------------|----------------|------------|-----------|---------------|-------------------|---|
-| 1           | Aditya Bhosle  | IT         | 120000.00 | 115000.000000 | Above Average     |   |
-| 2           | Rutuja Rajpure | IT         | 110000.00 | 115000.000000 | Below Average     |   |
-| 3           | Archana Gupta  | HR         | 95000.00  | 93500.000000  | Above Average     |   |
-| 4           | Shashank Jhage | HR         | 92000.00  | 93500.000000  | Below Average     |   |
-| 5           | Prasad Kate    | Sales      | 100000.00 | 97500.000000  | Above Average     |   |
+| employee_id | name           | department | salary    | avg_salary    | salary_comparison |   
+|-------------|----------------|------------|-----------|---------------|-------------------|
+| 1           | Aditya Bhosle  | IT         | 120000.00 | 115000.000000 | Above Average     |   
+| 2           | Rutuja Rajpure | IT         | 110000.00 | 115000.000000 | Below Average     |   
+| 3           | Archana Gupta  | HR         | 95000.00  | 93500.000000  | Above Average     |  
+| 4           | Shashank Jhage | HR         | 92000.00  | 93500.000000  | Below Average     |   
+| 5           | Prasad Kate    | Sales      | 100000.00 | 97500.000000  | Above Average     |   
 | 6           | Khushi Oswal   | Sales      | 95000.00  | 97500.000000  | Below Average 
 
 ## 3.Employees Earning Above Department Average (using a Subquery)
@@ -111,8 +111,8 @@ WHERE e.salary > (
  We use a subquery to calculate the average salary for each department, and then the main query selects employees who earn more than this average.
 
 ### Output
-| employee_id | name          | department | salary |   |   |   |
-|-------------|---------------|------------|--------|---|---|---|
-| 1           | Aditya Bhosle | IT         | 120000 |   |   |   |
-| 3           | Archana Gupta | HR         | 95000  |   |   |   |
-| 5           | Prasad Kate   | Sales      | 100000 |   |   |   |
+| employee_id | name          | department | salary |   
+|-------------|---------------|------------|--------|
+| 1           | Aditya Bhosle | IT         | 120000 |   
+| 3           | Archana Gupta | HR         | 95000  |   
+| 5           | Prasad Kate   | Sales      | 100000 |   
