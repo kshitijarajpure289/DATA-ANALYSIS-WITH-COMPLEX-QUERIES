@@ -4,14 +4,14 @@
  Consider 2 tables given below
 ## 1. Employees Table
 
-| employee_id | name           | department | salary |   |   |   |
-|-------------|----------------|------------|--------|---|---|---|
-| 1           | Aditya Bhosle  | IT         | 120000 |   |   |   |
-| 2           | Rutuja Rajpure | IT         | 110000 |   |   |   |
-| 3           | Archana Gupta  | HR         | 95000  |   |   |   |
-| 4           | Shashank Jhage | HR         | 92000  |   |   |   |
-| 5           | Prasad Kate    | Sales      | 100000 |   |   |   |
-| 6           | Khushi Oswal   | Sales      | 95000  |   |   |   |
+| employee_id | name           | department | salary |   
+|-------------|----------------|------------|--------|
+| 1           | Aditya Bhosle  | IT         | 120000 |   
+| 2           | Rutuja Rajpure | IT         | 110000 |   
+| 3           | Archana Gupta  | HR         | 95000  |   
+| 4           | Shashank Jhage | HR         | 92000  |  
+| 5           | Prasad Kate    | Sales      | 100000 |   
+| 6           | Khushi Oswal   | Sales      | 95000  |   
 
 ## 2. Departments Table
 
