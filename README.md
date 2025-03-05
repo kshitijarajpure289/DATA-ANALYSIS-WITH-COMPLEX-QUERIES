@@ -16,6 +16,7 @@
 
 ## Tools Used
 1.MySQL Workbench – A graphical interface used for running SQL queries and managing databases.
+
 2.Visual Studio Code – Used to edit, save, and document SQL scripts for further reference and sharing.
 
 ## Advanced SQL Techniques for Trend and Pattern Analysis
