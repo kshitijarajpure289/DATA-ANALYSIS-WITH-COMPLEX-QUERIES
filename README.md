@@ -12,7 +12,7 @@
 
 *MENTOR*: NELLA SANTOSH KUMAR
 
-### Data-driven decision-making is crucial in today’s competitive landscape. SQL (Structured Query Language) plays a key role in extracting, processing, and analyzing vast amounts of data to generate meaningful reports. Advanced SQL techniques such as window functions, subqueries, and Common Table Expressions (CTEs) allow analysts to uncover trends and patterns that help businesses optimize operations, forecast demand, and enhance customer experiences.
+### Advanced SQL techniques such as window functions, subqueries, and Common Table Expressions (CTEs) are key to analyzing trends, identifying patterns, and making informed decisions. By utilizing these techniques, companies can monitor trends in sales, customer behavior, financial performance, and operational efficiency. Window functions help in the computation of moving averages and rankings, subqueries help amalgamate complex filtering, and CTEs allow for way more readable and optimized queries. Industries like finance, e-commerce, health, and marketing utilize SQL to prepare meaningful reports and optimize their business strategies. With tools like MySQL Workbench and Visual Studio Code, analysts can efficiently process huge chunks of data using the SQL language itself, all to uncover trends and prompt smarter decision-making. 
 
 ## Tools Used
 1.MySQL Workbench – A graphical interface used for running SQL queries and managing databases.
