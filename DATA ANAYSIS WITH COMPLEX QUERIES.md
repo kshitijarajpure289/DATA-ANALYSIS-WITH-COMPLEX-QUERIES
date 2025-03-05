@@ -42,7 +42,7 @@ FROM employees;
 
 ### Output
 | employee_id | name           | department | salary    | salary_rank |   
-|-------------|----------------|------------|-----------|-------------|---
+|-------------|----------------|------------|-----------|-------------|
 | 3           | Archana Gupta  | HR         | 95000.00  | 1           |  
 | 4           | Shashank Jhage | HR         | 92000.00  | 2           |   
 | 1           | Aditya Bhosle  | IT         | 120000.00 | 1           |   
